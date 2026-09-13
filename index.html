@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utkarsh Choudhary — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Utkarsh Choudhary, a student developer at VIT-AP working with Python, C, C++, Java, and web development."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="#about">Utkarsh Choudhary</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <div class="hero-grid">
+          <p class="eyebrow">Portfolio · 2026</p>
+          <div class="hero-copy">
+            <p class="kicker">Prayagraj · VIT-AP</p>
+            <h1>Utkarsh Choudhary</h1>
+            <p class="lede">
+              Python, C, C++, Java, and full-stack web development — still learning, still
+              building.
+            </p>
+          </div>
+          <figure class="portrait">
+            <img
+              src="photo.jpg"
+              alt="Portrait of Utkarsh Choudhary"
+            />
+          </figure>
+        </div>
+
+        <div class="story-grid">
+          <article class="story">
+            <h2>About</h2>
+           <p>
+  Hey, I’m an undergraduate student at VIT-AP University (2025–2029), originally
+  from Prayagraj, Uttar Pradesh. I enjoy coding, figuring things out on my own,
+  and honestly, sometimes going back to the basics when I realize I’ve forgotten
+  something.
+</p>
+
+<p>
+  Right now, I’m getting back into web development and rebuilding my skills
+  properly — starting with HTML, CSS and JavaScript, and then moving on to
+  React, Node.js and the rest of the stack. Alongside that, I’ve been exploring
+  AI and Machine Learning because I find it pretty interesting and want to
+  eventually build things that are actually useful.
+</p>
+
+<p>
+  I mostly work with Python and Java, and I’ve also worked with C and C++.
+  DSA is something I’m spending a lot of time on too, since I want to get better
+  at actually understanding problems instead of just getting code to work.
+</p>
+
+<p>
+  This website is one of my first projects that I’ve put out publicly on GitHub.
+  I’m still learning, still figuring things out, and probably going to change
+  this site a hundred times — but that’s kind of the point.
+</p>
+          </article>
+
+          <aside class="facts">
+            <div class="fact">
+              <span>School</span>
+              <strong>VIT University</strong>
+            </div>
+            <div class="fact">
+              <span>Years</span>
+              <strong>2025 — 2029</strong>
+            </div>
+            <div class="fact">
+              <span>Home</span>
+              <strong>Prayagraj, India</strong>
+            </div>
+            <div class="fact">
+              <span>Focus</span>
+              <strong>AI/ML, development, DSA</strong>
+            </div>
+          </aside>
+        </div>
+
+        <div class="mix-grid">
+          <article class="tile tile-wide">
+            <h3>Skills</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+              <li>DSA</li>
+            </ul>
+          </article>
+
+          <article class="tile">
+            <h3>Learning now</h3>
+            <p>JavaScript, React, Angular, Node.js, Next.js — a slow, honest full-stack reset.</p>
+          </article>
+
+          <article class="tile">
+            <h3>Certificates</h3>
+            <p>IBM · Java Programming for Beginners · Jan 2026</p>
+            <p>Udemy · Introduction to Programming Using Python · Aug 2025</p>
+          </article>
+
+          <article class="tile tile-accent">
+            <h3>Now</h3>
+            <p>
+              Practiceing dsa and Full stack
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="contact-grid">
+          <div class="contact-intro">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s talk.</h2>
+            <p>
+              For internships, college work, or a simple hello — write to me. I read every
+              mail.
+            </p>
+          </div>
+
+          <div class="contact-cards">
+            <a class="contact-card" id="email-link" href="mailto:YOUR_EMAIL_HERE">
+              <span>Email</span>
+              <strong id="email-text">utkarsh6624.codes@gmail.com</strong>
+            </a>
+            <a
+              class="contact-card"
+              href="https://www.linkedin.com/in/utkarsh-choudhary-116a9736a"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>LinkedIn</span>
+              <strong>utkarsh-choudhary-116a9736a</strong>
+            </a>
+            <div class="contact-card static">
+              <span>Location</span>
+              <strong>Prayagraj, Uttar Pradesh</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Utkarsh Choudhary</p>
+      <p>HTML · CSS · JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
